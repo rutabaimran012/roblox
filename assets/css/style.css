@@ -1,0 +1,173 @@
+.loginform{
+    margin: 0 auto;
+    box-sizing: initial;
+    padding: 15px;
+    max-width: 435px;
+    border-radius: 8px;
+    background-color: #232527;
+    color: black;
+    text-align: center;
+}
+nav{
+    padding: 20px 0;
+    display: flex;
+    justify-content: end;
+    font-family: HCo Gotham SSm,Helvetica Neue,Helvetica,Arial,Lucida Grande,sans-serif;
+}
+*{
+    margin: 0%;
+    padding: 0%;
+}
+header{
+    font-family: HCo Gotham SSm,Helvetica Neue,Helvetica,Arial,Lucida Grande,sans-serif;
+}
+.nav__link{
+    text-align: center;
+    padding: 9px 40px;
+    border: 1px solid #fff;
+    border-radius: 8px;
+    color: #232527;
+    font-size: 16px;
+    background-color: #fff;
+    font-weight: 500;
+    text-decoration: none;
+    margin-right: 20px;
+}
+.header__robloximage{
+    margin: -45px 0 18px 511px;
+}
+.loginform__mainheading{
+    font-size: 20px;
+}
+.loginform__flex1{
+    display: flex;
+}
+.loginform__label{
+    font-size: 12px;
+    font-weight: 500;
+    margin-bottom: 5px;
+    margin-right: 393px;
+}
+.loginform__inputone{
+    color: #fff;
+    background-color: black;
+    padding: 8px;
+    font-size: 18px;
+    width: 30%;
+    border: 1px solid gray;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.loginform__paragraph{
+    font-size: 18px;
+    color: #fff;
+    width: 96%;
+    text-align: left;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.loginform__link{
+    color: #00A2FF;
+}
+.loginform__button{
+    background-color: #fff;
+    border-color: #fff;
+    color: #393b3d;
+    border-radius: 8px;
+    width: 434px;
+    height: 35px;
+    margin-top: 12px;
+    font-size: 16px;
+}
+.loginform__inputtwo{
+    color: #fff;
+    background-color: black;
+    font-size: 18px;
+    width: 95%;
+    border: 1px solid gray;
+    padding: 8px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.header__appstoreimage{
+    width: 150px;
+    height:50px;
+    padding: 0 10px;
+    margin-bottom: 33px;
+}
+.header__googleplayimage{
+    width: 170px;
+    height: 50px;
+    padding: 0 10px;
+}
+.header__xboximage{
+    width: 140px;
+    height: 50px;
+    padding: 0 10px;
+}
+.header__heading{
+    font-size: 24px;
+    font-weight: 700;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    margin: 36px 0 15px 0;
+}
+.header__flex1{
+    display: flex;
+    justify-content: center;
+}
+footer{
+    background-color: #141419;
+    padding: 12px;
+    font-family: HCo Gotham SSm,Helvetica Neue,Helvetica,Arial,Lucida Grande,sans-serif;
+}
+.footer__div1{
+    margin: 0 196px;
+}
+.footer__div2{
+    margin: 20px 0 32px 0;
+}
+.footer__links{
+    font-size: 18px;
+    color: #BDBEBE;
+    padding: 20px;
+    text-decoration: none;
+}
+.footer__links:hover{
+    color: white;
+}
+.footer__div3{
+    display: flex;
+    padding-top: 24px;
+    border-top: 1px solid #BDBEBE;
+}
+.footer__paragraph{
+    padding-left: 24px;
+    font-size: 11px;
+    color: #BDBEBE;
+    width: 63%;
+    padding-top: 10px;
+    line-height: 18px;
+}
+.footer__input{
+    color: #BDBEBE;
+    background-color: #141419;;
+    padding: 8px;
+    font-size: 19px;
+    width: 25%;
+    border: 1px solid gray;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 18px;
+    font-weight: 700;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.footer__input:hover{
+    color: white;
+    border-color: white;
+}
+body{
+    background-image: url('https://images.rbxcdn.com/782b7fc18a24ee997efd9a7f02fa4bf9-bg_08072019.jpg');
+}
