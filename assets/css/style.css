@@ -2,7 +2,7 @@
     margin: 0 auto;
     box-sizing: initial;
     padding: 15px;
-    max-width: 435px;
+    max-width: 449px;
     border-radius: 8px;
     background-color: #232527;
     color: black;
@@ -54,14 +54,16 @@ header{
     color: #fff;
 }
 .loginform__inputone{
-    color: #fff;
+    color: #BDBEBE;
     background-color: black;
     padding: 8px;
     font-size: 18px;
-    width: 30%;
+    width: 149px;
     border: 1px solid gray;
     margin-top: 10px;
-    margin-bottom: 10px;
+    margin-bottom: 27px;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius:8px ;
 }
 .loginform__paragraph{
     font-size: 18px;
@@ -83,8 +85,9 @@ header{
     height: 35px;
     margin-top: 12px;
     font-size: 16px;
+    cursor: pointer;
 }
-.loginform__inputtwo{
+.loginform__inputfour{
     color: #fff;
     background-color: black;
     font-size: 18px;
@@ -92,7 +95,8 @@ header{
     border: 1px solid gray;
     padding: 8px;
     margin-top: 10px;
-    margin-bottom: 10px;
+    margin-bottom: 27px;
+    border-radius: 8px;
 }
 .header__appstoreimage{
     width: 150px;
@@ -121,6 +125,7 @@ header{
 .header__flex1{
     display: flex;
     justify-content: center;
+    margin-bottom: 10px;
 }
 footer{
     background-color: #141419;
@@ -175,4 +180,54 @@ footer{
 }
 body{
     background-image: url('https://images.rbxcdn.com/782b7fc18a24ee997efd9a7f02fa4bf9-bg_08072019.jpg');
+    background-size: contain;
+}
+.loginform__inputtwo{
+    color: #BDBEBE;
+    background-color: black;
+    padding: 8px;
+    font-size: 18px;
+    width: 30%;
+    border: 1px solid gray;
+    margin-top: 10px;
+    margin-bottom: 27px;
+}
+.loginform__inputthree{
+    color: #BDBEBE;
+    background-color: black;
+    padding: 8px;
+    font-size: 18px;
+    width: 30%;
+    border: 1px solid gray;
+    margin-top: 10px;
+    margin-bottom: 27px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius:8px ;
+}
+.loginform__inputfive{
+    padding: 3px 84px;
+    background-color: black;
+    border: 1px solid gray;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius:8px;
+    margin-left: 3px;
+}
+.loginform__inputsix{
+    padding: 3px 90px;
+    background-color: black;
+    border: 1px solid gray;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius:8px;
+}
+.loginform__icondiv{
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+.loginform__lastlabel{
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 5px;
+    color: #fff;
+    margin-right: 322px;
 }
